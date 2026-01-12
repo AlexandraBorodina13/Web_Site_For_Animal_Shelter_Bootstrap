@@ -1,0 +1,231 @@
+/*
+Theme Name: Shelter
+Theme URI: http://buynowshop.com/themes/ground-floor/
+Description: Child-Theme of Ground Floor - Richly toned wood floor background with bare-earth colored widgetized sidebar and footer (six widget areas in total, as shown on the included widget-map.png). A strong theme to begin with; grow into; and, build on.
+Version: 2.0.3
+WordPress Required Version: 3.4
+WordPress Tested Version: 4.0
+Author: Edward Caissie
+Tags: brown, red, tan, light, two-columns, left-sidebar, fixed-width, threaded-comments, sticky-post, translation-ready
+*/
+/**
+ * Copyright 2011-2014  Edward Caissie  (email : edward.caissie@gmail.com)
+ *
+ * This program is free software; you can redistribute it and/or modify it
+ * under the terms of the GNU General Public License version 2, as published
+ * by the Free Software Foundation.
+ *
+ * You may NOT assume that you can use any other version of the GPL.
+ *
+ * This program is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+ * for more details.
+ *
+ * You should have received a copy of the GNU General Public License along with
+ * this program; if not, write to the
+ *
+ *      Free Software Foundation, Inc.,
+ *      51 Franklin St, Fifth Floor,
+ *      Boston, MA  02110-1301  USA
+ *
+ * The license for this software can also likely be found here:
+ * http://www.gnu.org/licenses/gpl-2.0.html
+ */
+/**
+ * NB: This is currently a CSS only Child-Theme; the WordPress Required Version
+ * and WordPress Tested Version are not relevant for implementation at this time
+ */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('http://fonts.googleapis.com/css?family=Ubuntu');
+
+.header { 
+  background: #FDF5E6; 
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 16px;
+  margin-bottom: 0px;
+}
+
+logo {
+  width: 328px;
+  hidht: 116px;
+}
+
+a.button {
+  width: 275px;
+  height: 60px;
+  display: inline-block;
+  background: #3CB371;
+  color: #FDF5E6;
+  text-align: center;
+  padding: 0px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: Raleway.Regular;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 275px;
+  place-items: center;
+}
+
+.hero_shot { 
+  background: #FDF5E6; 
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+
+p {
+  /*color: #00cc00;*/
+  font-size: 64px;
+  text-align: left;
+  letter-spacing: -2px;
+  font-family: Ubuntu.Bold;
+  line-height: 64px;
+  padding-bottom: 24px;
+}
+
+t {
+  /*color: #00cc00;*/
+  font-size: 18px;
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: Raleway.Regular;
+  line-height: 18px;
+}
+
+b.button {
+  width: 147px;
+  height: 60px;
+  display: inline-block;
+  background: #3CB371;
+  color: #FDF5E6;
+  text-align: center;
+  margin-top: 60px;
+  padding: 0px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 275px;
+  place-items: center;
+}
+
+bw {
+   display: block;
+   margin: 100px 0;
+}
+
+.help { 
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+
+po.button {
+  width: 275px;
+  height: 60px;
+  display: inline-block;
+  background: #3CB371;
+  color: #FDF5E6;
+  text-align: center;
+  padding: 0px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: Raleway.Regular;
+  font-size: 16px;
+  line-height: 60px;
+  font-weight: 275px;
+  place-items: center;
+  margin-top: 60px;
+  
+}
+
+
+.animal { 
+  background: #FDF5E6; 
+  padding-top: 100px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 100px;
+}
+
+.Text {
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: -2px;
+  font-family: Ubuntu.Bold;
+  line-height: 64px;
+  margin-bottom: 50px;
+}
+
+#grid {
+  display: grid;
+  height: 1600px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1787px;
+  column-gap: 30px;
+}
+
+
+.kitty{
+  display: block;
+  width: 378px;
+  height: 499px;
+  border: 4px dashed #CCCCCC;
+  border-radius: 8px;
+}
+
+Image {
+  width: 378px;
+  heigh: 378px;
+  float: left; /* Выстраиваем элементы по горизонтали */
+  margin: 0 0 0 3.5%; /* Отступ слева */
+  border-radius: 8px; /* Радиус скругления */
+  padding: 0px; /* Поля */
+   }
+
+name {
+  /*color: #00cc00;*/
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0px;
+  font-family: Raleway.Semibold;
+  line-height: 20px;
+}
+
+r.button {
+  width: 378px;
+  height: 63px;
+  display: inline-block;
+  background: #3CB371;
+  color: #FDF5E6;
+  text-align: center;
+  padding: 0px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-family: Raleway;
+  font-size: 20px;
+  place-items: center;
+  line-height: 60px;
+  font-weight: 275px;
+}
+
+be {
+   display: block;
+   margin: 30px 0;
+}
+.footer { 
+  background: #FDF5E6; 
+  padding-top: 108px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 32px;
+}
